@@ -49,11 +49,6 @@ Is there enough information to enable you to find a solution?
 *Solve an equation 
 *Be ingenious
 
-
-
-
-
-
 <h2>
     3. Executing the Plan
 </h2>
