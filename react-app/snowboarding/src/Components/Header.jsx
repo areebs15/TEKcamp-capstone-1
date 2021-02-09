@@ -4,13 +4,14 @@ function Header() {
    
         <header className="App-header">
           <div>
-            hello people
+            <img src={process.env.PUBLIC_URL + "/Images/SLogo.PNG"} />
+            <p>Snowboard inc.</p>
           </div>
           <nav>
             <div id="navig">
               <a href="#">Cart</a>
               <a href="#">Home</a>
-              </div>
+            </div>
           </nav>
         </header>
         )

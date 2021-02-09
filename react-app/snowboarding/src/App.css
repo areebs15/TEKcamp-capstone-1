@@ -14,52 +14,7 @@
 }
 body {
   /*background-image: "url(public/backImage.jpg)";*/
-  height: 100%;
-}
-.App-header {
-  background-color: lightgray;
-  color: black;
-  min-height: 7vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: start;
-  font-size: calc(10px + 2vmin);
-  padding-left: 20px;
-}
-
-footer {
-  display: flex;
-  justify-content: end;
-  align-items: bottom;
-}
-
-.App-footer {
-  background-color: #282c34;
-  min-height: 7vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding-left: 20px;
-}
-
-.indivItem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 20px;
-  width: 45%;
-  background-color: lightgray;
-  border-radius: 3px 3px 3px 3px;
-}
-
-
-img {
-  max-width: 400px;
-  padding: 20px;
+  height: 100vh;
 }
 
 #main-body {
@@ -68,13 +23,87 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  padding-top: 50px;
 }
 
-#navig {
-  background-color: red;
-  margin-left: 600px;
+.App-header {
+  background-color: rgb(226, 225, 225);
+  color: black;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%
 }
 
+.App-header > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav > div > a:hover {
+  background-color: gray;
+}
+
+nav > div > a{
+  padding-left: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.indivItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  background-color:rgb(226, 225, 225);
+  border-radius: 3px 3px 3px 3px;
+}
+#shopping-container{
+  background-color: rgb(226, 225, 225);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  margin-left: 50%;
+  margin-right: 50px;;
+  border-radius: 3px 3px 3px 3px;
+}
+
+header > div > img {
+  width: 50px;
+}
+
+img {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  height: 21vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-footer > nav > div > a {
+  color: white;
+}
 
 
 .App-link {
