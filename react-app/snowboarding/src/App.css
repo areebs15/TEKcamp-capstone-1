@@ -27,8 +27,8 @@ body {
 }
 
 .App-header {
-  background-color: rgb(226, 225, 225);
-  color: black;
+  background-color: black;
+  color: white;
   height: 7vh;
   display: flex;
   flex-direction: row;
@@ -55,7 +55,7 @@ nav > div > a{
   padding-left: 10px;
   padding-right: 30px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .indivItem {
@@ -64,9 +64,29 @@ nav > div > a{
   align-items: center;
   margin: 20px;
   width: 45%;
-  background-color:rgb(226, 225, 225);
+  background-color:black;
+  color: white;
   border-radius: 3px 3px 3px 3px;
 }
+
+button {
+  margin: 10px;
+  background-color: #d1624e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px 2px 2px 2px;
+  font-family: Tahoma, sans-serif;
+}
+
+.title {
+  font-size: 25px;
+}
+
 #shopping-container{
   background-color: rgb(226, 225, 225);
   width: 50%;
@@ -105,16 +125,37 @@ img {
   color: white;
 }
 
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 150px;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .indivItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    border-radius: 3px 3px 3px 3px;
   }
+
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    max-width: 250px;
+    padding: 10px;
+  }
+  .indivItem {
+    margin: 20px;
+    width: 100%;
+  }
+
 }

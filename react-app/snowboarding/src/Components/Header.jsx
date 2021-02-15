@@ -9,7 +9,7 @@ function Header() {
           </div>
           <nav>
             <div id="navig">
-              <a href="#">Cart</a>
+              <a href="#shopping-container">Cart</a>
               <a href="#">Home</a>
             </div>
           </nav>
