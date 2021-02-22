@@ -3,12 +3,12 @@ function Footer() {
    
         <footer className="App-footer">
         <div>
-          hello people
+          Thanks For Browsing!
         </div>
         <nav>
           <div id="navig">
-            <a href="#">Cart</a>
             <a href="#">Home</a>
+            <a href="#">Product View</a>
           </div>
         </nav>
       </footer>

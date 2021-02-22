@@ -1,21 +1,83 @@
 {
     "products": [
         {
-            "productname": "name",
-            "serialnumber": 10000,
-            "price": 20,
-            "manufacturer": "burton",
+            "productname": "burton",
+            "serialnumber": "10000",
+            "price": "300.00",
             "category": "powder",
-            "quantity": 10,
+            "quantity": "5",
             "productimage": ""
         },
         {
-            "productname": "name",
-            "serialnumber": 10000,
-            "price": 20,
-            "manufacturer": "burton",
+            "productname": "salomon",
+            "serialnumber": "10001",
+            "price": "450.00",
             "category": "powder",
-            "quantity": 11,
+            "quantity": "7",
+            "productimage": ""
+        },
+        {
+            "productname": "Lamar",
+            "serialnumber": "10002",
+            "price": "250.00",
+            "category": "powder",
+            "quantity": "3",
+            "productimage": ""
+        },
+        {
+            "productname": "volcom",
+            "serialnumber": "10003",
+            "price": "500.00",
+            "category": "powder",
+            "quantity": "2",
+            "productimage": ""
+        },
+        {
+            "productname": "joans",
+            "serialnumber": "10004",
+            "price": "620.00",
+            "category": "ice",
+            "quantity": "3",
+            "productimage": ""
+        },
+        {
+            "productname": "Dakine",
+            "serialnumber": "10005",
+            "price": "340.00",
+            "category": "powder",
+            "quantity": "4",
+            "productimage": ""
+        },
+        {
+            "productname": "Neff",
+            "serialnumber": "10006",
+            "price": "200.00",
+            "category": "precision",
+            "quantity": "15",
+            "productimage": ""
+        },
+        {
+            "productname": "crab grab",
+            "serialnumber": "10007",
+            "price": "510.00",
+            "category": "stunt",
+            "quantity": "8",
+            "productimage": ""
+        },
+        {
+            "productname": "dragon",
+            "serialnumber": "10008",
+            "price": "260.00",
+            "category": "precision",
+            "quantity": "6",
+            "productimage": ""
+        },
+        {
+            "productname": "skull candy",
+            "serialnumber": "10009",
+            "price": "240.00",
+            "category": "powder",
+            "quantity": "9",
             "productimage": ""
         }
     ]

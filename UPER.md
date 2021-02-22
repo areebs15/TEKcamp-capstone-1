@@ -23,51 +23,54 @@ Can you restate the problem in your own words?
 
 See above.
 
-Can you think of a picture or diagram that might help you understand the
-problem?
 
-
-
-Is there enough information to enable you to find a solution?
 
 <h2>
     2. Planning the Solution
 </h2>
 
-*Guess and check 
-*Look for a pattern
-*Make an orderly list 
-*Draw a picture
-*Eliminate the possibilities 
-*Solve a simpler problem
-*Use symmetry 
-*Use a model
-*Consider special cases 
-*Work backwards
-*Use direct reasoning 
-*Use a formula
-*Solve an equation 
-*Be ingenious
+In order to begin planning, i am going to use some wireframing tool to layout the site. This will allow me to visualize how the site will look and will guide the development. Without this step, the site can quickly become unorderly.
+I will use powerpoint to layout my site. This is because its very simple to use and makes it clear how i want to move forward with the project.
+I need to have multiple views on this site. The views needed are as follows.
+
+List of products with the ability to purchase.
+
+List of products and their extended details.
+
+A shooping cart to store items that the user intends on purchasing.
+
+-- A breakdown of each views needs will be in the next step. --
 
 <h2>
     3. Executing the Plan
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+* Creating the main page
+    the main page will be home to the main product view. This will look similar to any modern ecommerce site. there will be an image of the product along with its name, price and a purchase button. 
+    The purchase button will need to add the inventory item that it is connected to into the shopping cart.
+    
+    The individual product layout will look as follows
+    ------------------------------
+    |Image| Name: ItemName       | 
+    |Price: $20.00 | Add To Cart |
+    ------------------------------
+* Creating the product views page
+    The product views page will list more information about each individual item. This is more for a moderator of the site rather than a consumer. it needs to display the following.
+    Item name
+    Item price
+    Item Serial Number
+    Item Category
+    Item Quantity
+    Item ThumbNail
+
+* Creating the shopping cart view
+    The shopping cart for my site will be located on the same view as the main page. The purpose of this is to entice users to stay on the site and continue to look for more items. I personally believe that having a seperate view discourages further purchases.
+    
+    The shopping cart should list the item name, price and a delete option.
+    The delete option should remove the item from the shopping cart.
+
 <h2>
     4. Reflection / Refactor
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+* when i started this project i began with the main page view. Because of this i didnt tie in the data on the main page to the data from the JSON object. I think that if i had done this it would have been much easier to sift thhrough the different information for each item slot. I plan on adding this to the site now that i realized how important it is.
+
+Another change i need to make is how the shopping cart gets the price data. It relates to the problem mentioned above, but i also could have done it much more elegently. As it stands, i take in the item text content and put them into the array. I them take the position in the srray that holds the price and add it from there. If i used objects from the JSON file, i could have specificied the specific key needed (price).
