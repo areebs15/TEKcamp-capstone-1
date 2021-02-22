@@ -87,6 +87,23 @@ button {
   font-size: 25px;
 }
 
+.product-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.products {
+  margin: 100px;
+  background-color: gray;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 2px 2px 2px 2px;
+}
+.search {
+  margin: 50px;
+}
+
 #shopping-container{
   background-color: rgb(226, 225, 225);
   width: 50%;

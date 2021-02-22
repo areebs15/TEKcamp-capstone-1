@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 function Header() {
     return (
    
@@ -9,10 +11,13 @@ function Header() {
           </div>
           <nav>
             <div id="navig">
-              <a href="#shopping-container">Cart</a>
-              <a href="#">Home</a>
+              <Router>
+                <Link to="/">Home</Link>
+                <Link to="/ProductView">Product View</Link>
+              </Router>
             </div>
           </nav>
+          
         </header>
         )
     }

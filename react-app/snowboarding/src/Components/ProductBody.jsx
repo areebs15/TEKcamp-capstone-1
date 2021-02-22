@@ -1,7 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
 import ShoppingCart from './ShoppingCart';
-
 function ProductBody() {
 
     const [pValue, setPValue] = useState([]);
@@ -25,7 +24,7 @@ function ProductBody() {
         let itemPrice = parseInt(e.target.id);
         setTotPrice(totPrice - itemPrice);
     }
-    
+
     return (   
             <section className="item">
             <div id="main-body">
@@ -35,7 +34,7 @@ function ProductBody() {
                         <p id="sB1" value="item1" className="title">Item-1 </p>
                         <p>Item-Description </p>
                         <p>Price: 20 </p>
-                        <button>Add-To-Cart</button>
+                        <button>Add To Cart</button>
                     </form>
                 </div>
                 <div className="indivItem" id="item2">
@@ -44,7 +43,7 @@ function ProductBody() {
                         <p id="sB1" value="item1" className="title">Item-2 </p>
                         <p>Item-Description </p>
                         <p>Price: 30 </p>
-                        <button>Add-To-Cart</button>
+                        <button>Add To Cart</button>
                     </form>
                 </div>
             </div>

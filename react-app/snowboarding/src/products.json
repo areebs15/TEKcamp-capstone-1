@@ -1,94 +1,22 @@
 {
     "products": [
         {
-            "product-name": "name",
-            "serial-number": 10000,
+            "productname": "name",
+            "serialnumber": 10000,
             "price": 20,
             "manufacturer": "burton",
             "category": "powder",
             "quantity": 10,
-            "product-image": ""
+            "productimage": ""
         },
         {
-            "product-name": "name",
-            "serial-number": 10000,
+            "productname": "name",
+            "serialnumber": 10000,
             "price": 20,
             "manufacturer": "burton",
             "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
-        },
-        {
-            "product-name": "name",
-            "serial-number": 10000,
-            "price": 20,
-            "manufacturer": "burton",
-            "category": "powder",
-            "quantity": 10,
-            "product-image": ""
+            "quantity": 11,
+            "productimage": ""
         }
     ]
 }
