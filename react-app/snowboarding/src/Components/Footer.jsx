@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Footer() {
     return (
    
@@ -7,8 +8,8 @@ function Footer() {
         </div>
         <nav>
           <div id="navig">
-            <a href="#">Home</a>
-            <a href="#">Product View</a>
+            <Link to="/">Home</Link>
+            <Link to="/ProductView">Product View</Link>
           </div>
         </nav>
       </footer>

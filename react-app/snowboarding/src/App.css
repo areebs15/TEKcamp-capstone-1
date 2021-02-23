@@ -47,6 +47,9 @@ body {
   flex-direction: row;
   align-items: center;
 }
+.banner {
+  padding: 10%;
+}
 
 nav > div > a:hover {
   background-color: gray;
@@ -104,6 +107,28 @@ button {
   background-color: whitesmoke;
   border-radius: 2px 2px 2px 2px;
   font-size: 25px;
+}
+.productsGold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  background-color: gold;
+  border-radius: 2px 2px 2px 2px;
+  font-size: 25px;
+}
+.productsGold > p {
+  width: 100%;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.productsGold > p:nth-child(odd) {
+  background-color: rgb(240, 185, 36);
+  width: 100%;
+  font-size: 16px;
+  margin: 0px;
 }
 
 .products > p {

@@ -14,7 +14,6 @@ function ProductBody() {
         let sum = totPrice === undefined ? 0 : totPrice;
         setPValue(pValue => [...pValue, Parr]);
         let itemVal = parseInt(Parr[3]);
-        //------------------------------------
         setTotPrice(sum += itemVal);
     }
     const handleDelete = (e) => {
@@ -23,6 +22,11 @@ function ProductBody() {
         setPValueD(pValue.splice(indexV, 1));
         let itemPrice = parseInt(e.target.id);
         setTotPrice(totPrice - itemPrice);
+    }
+
+    const payPal = (e) => {
+        alert("This event is when the payPal popup event would occur if i had gotten it working. Your price total is: $" + e.target.value + " dollars");
+        window.location.reload(false);
     }
 
     return (   
@@ -119,18 +123,18 @@ function ProductBody() {
                     </form>
                 </div>
             </div>
-            <div id="shopping-container">
-                <h2>Shopping Cart</h2>
-                {
-                pValue.map((t,i) => 
-                <ShoppingCart keys={i} item={t[0]} price={t[3]} handleDelete={handleDelete} totPrice={totPrice}/>)
-                }
-                <h3>
-                    <p>
-                        Total: ${totPrice} <button>Checkout</button>
-                    </p>
-                </h3>
-            </div>
+                <div id="shopping-container">
+                    <h2>Shopping Cart</h2>
+                    {
+                    pValue.map((t,i) => 
+                    <ShoppingCart keys={i} item={t[0]} price={t[3]} handleDelete={handleDelete} totPrice={totPrice}/>)
+                    }
+                    <h3>
+                        <p>
+                            Total: ${totPrice} <button onClick={payPal} value={totPrice}>Checkout</button>
+                        </p>
+                    </h3>
+                </div>
             </section>
         )
     }

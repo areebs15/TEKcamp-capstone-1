@@ -23,8 +23,6 @@ Can you restate the problem in your own words?
 
 See above.
 
-
-
 <h2>
     2. Planning the Solution
 </h2>
@@ -73,4 +71,10 @@ A shooping cart to store items that the user intends on purchasing.
 </h2>
 * when i started this project i began with the main page view. Because of this i didnt tie in the data on the main page to the data from the JSON object. I think that if i had done this it would have been much easier to sift thhrough the different information for each item slot. I plan on adding this to the site now that i realized how important it is.
 
-Another change i need to make is how the shopping cart gets the price data. It relates to the problem mentioned above, but i also could have done it much more elegently. As it stands, i take in the item text content and put them into the array. I them take the position in the srray that holds the price and add it from there. If i used objects from the JSON file, i could have specificied the specific key needed (price).
+Another change i need to make is how the shopping cart gets the price data. It relates to the problem mentioned above, but i also could have done it much more elegently. As it stands, i take in the item text content and put them into an array. I then take the position in the array that holds the price and add it from there. If i used objects from the JSON file, i could have specificied the specific key needed (price).
+
+An issue that i had was with the search functionality. I looked up a bunch of different resources online to aid in implementing search functionality. I found that i was spending a lot of time staring at other peoples code rather that trying out my own. because of this I decided to try to make my own search function based off of how i thought it might work. I was surprised to find that i made something that actually sifts through the JSON object. This was definitely a high point during the development process. There are still some issues with it that i need to run by another developer because i cant seem to figure out how to fix them.
+
+At the end of development i went back and cleaned up my workspace. This consisted mostly of delting comments and blank spaces in between code snippets. Something that would help would be to have someone look it over from a different perspective and let me know how i could make it more clear. 
+
+I learned a lot about react through this assignment. I started out with little to no experience in it, this made it so that basic functionality things took me a long time to complete. However, being able to struggle through the problems that come up is how i learn programming best. It allows me to challenge myself and learn from mistakes. It also allows me to notice the parallels between different frameworks / software.
