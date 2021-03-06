@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  /*background-image: "url(public/backImage.jpg)";*/
+  height: 100vh;
+}
+
+#main-body {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.App-header {
+  background-color: black;
+  color: white;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.App-header > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.banner {
+  padding: 10%;
+}
+
+nav > div > a:hover {
+  background-color: gray;
+}
+
+nav > div > a{
+  padding-left: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.indivItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  background-color:black;
+  color: white;
+  border-radius: 3px 3px 3px 3px;
+}
+
+button {
+  margin: 10px;
+  background-color: #d1624e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px 2px 2px 2px;
+  font-family: Tahoma, sans-serif;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.product-view {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  background-color: whitesmoke;
+  border-radius: 2px 2px 2px 2px;
+  font-size: 25px;
+}
+.productsGold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  background-color: gold;
+  border-radius: 2px 2px 2px 2px;
+  font-size: 25px;
+}
+.productsGold > p {
+  width: 100%;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.productsGold > p:nth-child(odd) {
+  background-color: rgb(240, 185, 36);
+  width: 100%;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.products > p {
+  width: 100%;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.products > p:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.search {
+  padding-top: 100px;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 40%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+#shopping-container{
+  background-color: rgb(226, 225, 225);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  margin-left: 50%;
+  margin-right: 50px;;
+  border-radius: 3px 3px 3px 3px;
+}
+
+header > div > img {
+  width: 50px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 300px;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: black;
+  height: 21vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-footer > nav > div > a {
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 150px;
+    padding: 10px;
+  }
+  .indivItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    border-radius: 3px 3px 3px 3px;
+  }
+  #shopping-container{
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    max-width: 250px;
+    padding: 10px;
+  }
+  .indivItem {
+    margin: 20px;
+    width: 100%;
+  }
+
+}
